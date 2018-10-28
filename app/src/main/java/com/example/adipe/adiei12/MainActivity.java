@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int eo= item.getItemId();
         if (eo==R.id.cred){
-            Intent r= new Intent(this, MainActivity.class);
+            Intent r= new Intent(this, Main2Activity.class);
             startActivity(r);}
         return super.onOptionsItemSelected(item);
     }
